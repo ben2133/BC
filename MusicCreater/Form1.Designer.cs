@@ -159,11 +159,12 @@ namespace MusicCreater
             // audio_volume
             // 
             this.audio_volume.Location = new System.Drawing.Point(6, 20);
+            this.audio_volume.Maximum = 100;
             this.audio_volume.Name = "audio_volume";
             this.audio_volume.Size = new System.Drawing.Size(300, 45);
             this.audio_volume.TabIndex = 0;
             this.audio_volume.TickStyle = System.Windows.Forms.TickStyle.None;
-            this.audio_volume.Value = 2;
+            this.audio_volume.Value = 10;
             // 
             // button_lya
             // 
